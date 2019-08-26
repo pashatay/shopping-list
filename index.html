@@ -2,7 +2,10 @@
 <html lang="en">
 <head>
   <title>Shopping List</title>
-
+  <script
+  src="https://code.jquery.com/jquery-3.4.1.js"
+  integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+  crossorigin="anonymous"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/4.2.0/normalize.min.css">
   <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
 
@@ -16,7 +19,7 @@
     <form id="js-shopping-list-form">
       <label for="shopping-list-entry">Add an item</label>
       <input type="text" name="shopping-list-entry" id="shopping-list-entry" placeholder="e.g., broccoli">
-      <button type="submit">Add item</button>
+      <button id='addBttn' type="submit">Add item</button>
     </form>
 
     <ul class="shopping-list">
@@ -66,6 +69,6 @@
       </li>
     </ul>
   </div>
-
+<script type="text/javascript" src='main.js'></script>
 </body>
 </html>
